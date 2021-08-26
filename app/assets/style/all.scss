@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import './helpers/base';
+@import './helpers/helper';
+@import './components/swriper';
+@import 'utils/sizeing';
+@import './layout/_banner.scss';
+@import './layout/_menu.scss';
+@import './layout/header';
+@import './pages/index';
