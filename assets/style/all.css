@@ -15172,7 +15172,7 @@ img {
 
 .indexBanner {
   height: 480px;
-  background-image: url("./assets/images/banner.jpeg");
+  background-image: url("../../../assets/images/banner.jpeg");
 }
 
 .indexBanner__mask {
@@ -15181,12 +15181,12 @@ img {
 
 .indexBanner--twocol {
   height: 484px;
-  background-image: url("./assets/images/people2.png");
+  background-image: url("../../../assets/images/people2.png");
 }
 
 .indexBanner--footer {
   height: 400px;
-  background-image: url("./assets/images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpeg");
+  background-image: url("../../../assets/images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpeg");
   background-position: center center;
   background-size: cover;
 }
