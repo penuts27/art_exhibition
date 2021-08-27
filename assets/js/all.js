@@ -5,7 +5,7 @@ var swiper = new Swiper('.mySwiper', {
   // default setting for mobile
   mousewheel: true,
   slidesPerView: 1,
-  spaceBetween: 30,
+  spaceBetween: 15,
   freeMode: true,
   pagination: {
     el: '.swiper-pagination',
