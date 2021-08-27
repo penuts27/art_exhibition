@@ -2,6 +2,13 @@
 
 > 使用該專案 Gulp 時，就可以不用使用其他編譯工具編譯 SCSS 或是 JavaScript 囉。
 
+## 成品與資源連結
+- Pages
+  - [首頁index](https://penuts27.github.io/art_exhibition/)
+  
+- 設計稿
+  - [首頁index](https://xd.adobe.com/view/057f9d4e-6781-43fe-9aea-9f73f67dd2fd-502c/screen/5c7451a8-36b4-4973-8658-ac17cc2a0f81/specs/)
+
 ## 指令列表
 
 - `gulp` - 執行開發模式(會開啟模擬瀏覽器並監聽相關檔案)
