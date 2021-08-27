@@ -3,7 +3,15 @@
     width: auto !important;
   }
 
+  .fs-md-2 {
+    font-size: $h2-font-size !important;
+  }
+
   .fs-md-6 {
     font-size: $h6-font-size !important;
+  }
+
+  .fw-md-bold {
+    font-weight: bold !important;
   }
 }
