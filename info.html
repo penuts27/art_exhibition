@@ -26,7 +26,7 @@
           <h1 class="fs-5 text-primary">EXHIBINECTION</h1>
         </a>
         <!-- ticket -->
-        <a class="nav-link px-md-4 px-4 py-2 pb-md-2 position-relative order-md-1" href="#">
+        <a class="nav-link px-md-4 px-4 py-2 pb-md-2 position-relative order-md-1" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
           <span class="material-icons text-black">
             confirmation_number
           </span>
@@ -46,6 +46,38 @@
         </div>
       </div>
     </nav>
+    <!-- modal -->
+    <div class="cardList offcanvas offcanvas-start bg-black text-white" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header pb-0">
+        <h5 class="fs-5 lh-base fw-bold mb-3 offcanvas-title" id="offcanvasExampleLabel">Card List</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <ul class="offcanvas-body w-100">
+        <li class="d-flex classList-item position-relative w-100">
+          <div class="position-absolute top-0 start-0">
+            <span class="material-icons-outlined cursor-pointer">
+              close
+            </span>
+          </div>
+          <div class=" me-4">
+              <img src="./assets/images/alina-grubnyak-R84Oy89aNKs-unsplash.jpeg" alt="台味設計展">
+          </div>
+          <div class="flex-grow-1 d-flex flex-column">
+              <h4 class="fs-7 lh-base fw-bold mb-1">2021台味設計展</h4>
+              <p class="fs-7 lh-base mb-1">01 JUN — 31 OCT</p>
+              <p class="text-muted fs-7 lh-base">全票</p>
+              <p class="fs-6 lh-base mt-muto fw-bold">NT$350</p>
+          </div>
+          <ul class="d-flex flex-column justify-content-center align-items-center">
+            <li>
+              <span class="material-icons-outlined">
+              add
+              </span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
     <!-- menu -->
 <div class="menu">
   <ul class="menu__list d-flex justify-content-start justify-content-md-center border border-dark">
